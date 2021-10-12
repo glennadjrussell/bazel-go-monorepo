@@ -1,4 +1,4 @@
-module github.com/glennadjrussell/mdax
+module github.com/glennadjrussell/bazel-go-monorepo
 
 go 1.17
 

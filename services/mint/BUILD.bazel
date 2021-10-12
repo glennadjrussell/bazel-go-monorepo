@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "mint_lib",
     srcs = ["api.go"],
-    importpath = "github.com/glennadjrussell/mdax/services/mint",
+    importpath = "github.com/glennadjrussell/bazel-go-monorepo/services/mint",
     visibility = ["//visibility:private"],
     deps = [
         "@com_github_go_kit_kit//endpoint",
